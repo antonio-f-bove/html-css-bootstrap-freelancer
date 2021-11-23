@@ -1,0 +1,20 @@
+hr {
+    width: 10%;
+}
+
+._roundIcon {
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 5px;
+}
+._roundIcon i:first-child {
+    margin-left: 0;
+}
+._roundIcon i:last-child {
+    margin-right: 0;
+}
