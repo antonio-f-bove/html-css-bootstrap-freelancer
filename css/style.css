@@ -2,12 +2,15 @@
 
 ._bg-teal {
     background-color: rgb(52, 177, 138);
+    color: #fff;
 }
 ._bg-bluegrey {
     background-color: rgb(44, 66, 90);
+    color: #fff;
 }
 ._bg-grey {
     background-color: rgb(34, 47, 63);
+    color: #fff;
 }
 
 
@@ -15,13 +18,15 @@ hr {
     width: 10%;
 }
 
+/* JUMBO */
 
-/* INFO section */
+._jumbo ._img-container {
+    width: 300px;
+    max-width: 70%;
+}
 
-/* ._info p {
-    margin-bottom: 0;
-    text-align: center;
-} */
+
+/* INFO */
 
 ._info ._roundIcon {
     border: 2px solid white;
