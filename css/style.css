@@ -18,6 +18,13 @@ hr {
     width: 10%;
 }
 
+/* STO SOVRASCRIVENDO UNA REGOLA DI BOOTSTRAP */
+nav .navbar-collapse {
+    flex-grow: 0;
+}
+/* STO SOVRASCRIVENDO UNA REGOLA DI BOOTSTRAP */
+
+
 /* JUMBO */
 
 ._jumbo ._img-container {
