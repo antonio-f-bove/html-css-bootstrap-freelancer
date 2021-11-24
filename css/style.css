@@ -1,8 +1,29 @@
+/* colors */
+
+._bg-teal {
+    background-color: rgb(52, 177, 138);
+}
+._bg-bluegrey {
+    background-color: rgb(44, 66, 90);
+}
+._bg-grey {
+    background-color: rgb(34, 47, 63);
+}
+
+
 hr {
     width: 10%;
 }
 
-._roundIcon {
+
+/* INFO section */
+
+/* ._info p {
+    margin-bottom: 0;
+    text-align: center;
+} */
+
+._info ._roundIcon {
     border: 2px solid white;
     border-radius: 50%;
     display: inline-block;
@@ -12,9 +33,9 @@ hr {
     line-height: 50px;
     margin: 0 5px;
 }
-._roundIcon i:first-child {
+._info ._roundIcon i:first-child {
     margin-left: 0;
 }
-._roundIcon i:last-child {
+._info ._roundIcon i:last-child {
     margin-right: 0;
 }
