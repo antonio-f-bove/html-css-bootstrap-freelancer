@@ -4,10 +4,12 @@
     background-color: rgb(52, 177, 138);
     color: #fff;
 }
+
 ._bg-bluegrey {
     background-color: rgb(44, 66, 90);
     color: #fff;
 }
+
 ._bg-grey {
     background-color: rgb(34, 47, 63);
     color: #fff;
@@ -17,12 +19,6 @@
 hr {
     width: 10%;
 }
-
-/* STO SOVRASCRIVENDO UNA REGOLA DI BOOTSTRAP */
-nav .navbar-collapse {
-    flex-grow: 0;
-}
-/* STO SOVRASCRIVENDO UNA REGOLA DI BOOTSTRAP */
 
 
 /* JUMBO */
