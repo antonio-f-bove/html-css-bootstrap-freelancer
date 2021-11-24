@@ -15,11 +15,44 @@
     color: #fff;
 }
 
-
-hr {
+/* hr {
     width: 10%;
+} */
+
+._star-hr, ._star-hr-dark {
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+._star-hr::before, ._star-hr::after {
+    content: "";
+    display: inline-block;
+    border-top: 4px solid #fff;
+    border-radius: 5px;
+    margin: 0 16px;
+    max-width: 20%;
+    width: 100px;
+}
+
+._star-hr-dark::before, ._star-hr-dark::after {
+    content: "";
+    display: inline-block;
+    border-top: 4px solid #000;
+    border-radius: 5px;
+    margin: 0 16px;
+    max-width: 20%;
+    width: 100px;
+}
+
+._star-hr-light::before {
+    border-color: #000;
+}
 
 /* JUMBO */
 
@@ -28,6 +61,15 @@ hr {
     max-width: 70%;
 }
 
+
+/* ABOUT */
+
+#_about button::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f019";
+    font-weight: 900;
+    margin-right: 5px;
+}
 
 /* INFO */
 
@@ -46,4 +88,8 @@ hr {
 }
 ._info ._roundIcon i:last-child {
     margin-right: 0;
+}
+
+._info a {
+    color:rgb(52, 177, 138);
 }
